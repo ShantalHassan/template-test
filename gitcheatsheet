@@ -1,12 +1,15 @@
 goto folder->right click open git bash
 git clone https://github.com/ShantalHassan/template-test.git
 
-#local changes - stagging - commited - push
+#local changes - stagging(green) - commited - push
 
 git add .
 git commit -m "working add operation"
 git push
 
+
+git fetch origin
+git pull
 
 folder create
 open git bash
@@ -15,7 +18,8 @@ git remote add origin https://github.com/ShantalHassan/template-test.git
 
 git remote show origin
 git branch -a
-git checkout -b mybranch
+git checkout -b mybranch(create new branch)
+git checkout master
 
 git status
 
